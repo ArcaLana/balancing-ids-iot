@@ -1,0 +1,13 @@
+port semua fitur RF selesai
+port semua fitur XGB selesai
+port tanpa orig_p RF selesai
+port tanpa orig_p XGB selesai
+port tanpa kedua RF selesai
+port tanpa kedua XGB selesai
+model           sampler  jumlah_fitur  f1_macro  gmean
+   RF  port semua fitur            80    0.9826 0.9812
+  XGB  port semua fitur            80    0.9889 0.9833
+   RF port tanpa orig_p            79    0.9726 0.9768
+  XGB port tanpa orig_p            79    0.9824 0.9775
+   RF  port tanpa kedua            78    0.9692 0.9751
+  XGB  port tanpa kedua            78    0.9780 0.9756

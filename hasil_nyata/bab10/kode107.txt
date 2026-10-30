@@ -1,0 +1,37 @@
+multikelas RF Baseline selesai
+multikelas RF RUS selesai
+multikelas RF ROS selesai
+multikelas RF SMOTE selesai
+multikelas RF Borderline-SMOTE selesai
+GAGAL multikelas RF ADASYN -> Not any neigbours belong to the majority class. This case will induce a NaN case with a di
+multikelas RF ADASYN selesai
+multikelas RF SMOTE-Tomek selesai
+multikelas RF SMOTE-ENN selesai
+multikelas XGB Baseline selesai
+multikelas XGB RUS selesai
+multikelas XGB ROS selesai
+multikelas XGB SMOTE selesai
+multikelas XGB Borderline-SMOTE selesai
+GAGAL multikelas XGB ADASYN -> Not any neigbours belong to the majority class. This case will induce a NaN case with a di
+multikelas XGB ADASYN selesai
+multikelas XGB SMOTE-Tomek selesai
+multikelas XGB SMOTE-ENN selesai
+model          sampler              status  f1_macro  gmean  waktu_fit_dtk
+   RF         Baseline                  ok     0.983  0.981          3.094
+   RF              RUS                  ok     0.971  0.980          1.561
+   RF              ROS                  ok     0.976  0.985          3.774
+   RF            SMOTE                  ok     0.983  0.987          4.178
+   RF Borderline-SMOTE                  ok     0.984  0.986          6.022
+   RF           ADASYN gagal: RuntimeError       NaN    NaN            NaN
+   RF      SMOTE-Tomek                  ok     0.971  0.983         32.964
+   RF        SMOTE-ENN                  ok     0.942  0.982         33.118
+   RF     class_weight                  ok     0.976  0.983          3.959
+  XGB         Baseline                  ok     0.989  0.983         16.409
+  XGB              RUS                  ok     0.981  0.985          4.433
+  XGB              ROS                  ok     0.987  0.995         13.564
+  XGB            SMOTE                  ok     0.981  0.987         15.434
+  XGB Borderline-SMOTE                  ok     0.993  0.992         16.456
+  XGB           ADASYN gagal: RuntimeError       NaN    NaN            NaN
+  XGB      SMOTE-Tomek                  ok     0.983  0.994         44.605
+  XGB        SMOTE-ENN                  ok     0.938  0.983         43.875
+  XGB    sample_weight                  ok     0.980  0.990         13.761

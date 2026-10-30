@@ -1,0 +1,3 @@
+model,ukuran_pickle_MB,tambahan_RSS_MB,latensi_1_baris_ms_median,latensi_per_baris_batch_ms
+RF,8.828855,32.313344,28.57241500004193,0.00510708279390463
+XGB,1.63477,11.456512,4.501071000049706,0.007784016960171362

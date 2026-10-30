@@ -1,0 +1,2 @@
+Konfigurasi dan log tersimpan; jumlah baris log: 40
+Konfigurasi gagal: [['multikelas', 'RF', 'ADASYN', 'gagal: RuntimeError'], ['multikelas', 'XGB', 'ADASYN', 'gagal: RuntimeError']]

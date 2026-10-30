@@ -1,0 +1,22 @@
+                       f1_macro           gmean        
+                           mean     std    mean     std
+model sampler                                          
+RF    Baseline           0.9700  0.0130  0.9555  0.0195
+      Borderline-SMOTE   0.9712  0.0116  0.9583  0.0189
+      ROS                0.9671  0.0104  0.9574  0.0191
+      RUS                0.9626  0.0132  0.9559  0.0192
+      SMOTE              0.9692  0.0080  0.9588  0.0197
+XGB   Baseline           0.9746  0.0106  0.9572  0.0196
+      Borderline-SMOTE   0.9737  0.0108  0.9595  0.0193
+      RUS                0.9704  0.0080  0.9589  0.0176
+      SMOTE              0.9732  0.0083  0.9595  0.0188
+RF Friedman: statistik = 11.84 | p = 0.01858
+XGB Friedman: statistik = 5.64 | p = 0.1305
+model          sampler  selisih_rata2  menang_dari_baseline  dari_seed  p_wilcoxon
+   RF Borderline-SMOTE         0.0013                     6         10      0.3223
+   RF              ROS        -0.0029                     6         10      0.8457
+   RF              RUS        -0.0073                     1         10      0.0039
+   RF            SMOTE        -0.0007                     6         10      0.9219
+  XGB Borderline-SMOTE        -0.0009                     4         10      0.4316
+  XGB              RUS        -0.0043                     1         10      0.0059
+  XGB            SMOTE        -0.0014                     5         10      0.5566

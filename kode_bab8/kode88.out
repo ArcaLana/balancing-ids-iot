@@ -1,0 +1,4 @@
+Data uji SALAH : n=2259, minoritas=1129 (50%)
+Data uji BENAR : n=1200, minoritas=71 (5.9%)
+SALAH (SMOTE sebelum split): recall minoritas=0.951  F1 minoritas=0.949
+BENAR (split dulu)          : recall minoritas=0.634  F1 minoritas=0.520

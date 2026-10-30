@@ -1,0 +1,20 @@
+ 21 sampel Thing_Speak -> diprediksi ARP_poisioning
+ 21 sampel ARP_poisioning -> diprediksi Thing_Speak
+  3 sampel NMAP_UDP_SCAN -> diprediksi Thing_Speak
+  3 sampel NMAP_UDP_SCAN -> diprediksi ARP_poisioning
+  2 sampel Wipro_bulb -> diprediksi Thing_Speak
+  2 sampel Thing_Speak -> diprediksi Wipro_bulb
+  2 sampel MQTT_Publish -> diprediksi Thing_Speak
+  2 sampel DDOS_Slowloris -> diprediksi NMAP_UDP_SCAN
+
+Biner (0 = normal, 1 = serangan); FP = alarm palsu, FN = serangan lolos
+Jumlah normal pada data uji: 3605 | serangan: 31772
+model   sampler  FP  FN     FPR     FNR
+   RF  Baseline  24  23 0.00666 0.00072
+   RF       RUS   5 112 0.00139 0.00353
+   RF     SMOTE  18  36 0.00499 0.00113
+   RF SMOTE-ENN  18  55 0.00499 0.00173
+  XGB  Baseline  31  22 0.00860 0.00069
+  XGB       RUS   8 124 0.00222 0.00390
+  XGB     SMOTE  15  46 0.00416 0.00145
+  XGB SMOTE-ENN  17  48 0.00472 0.00151

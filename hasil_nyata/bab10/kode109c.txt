@@ -1,0 +1,12 @@
+RF (benar/diprediksi; sampel uji: Metasploit 11, FIN 8, Wipro 66)
+sampler                    Baseline    RUS  SMOTE Borderline-SMOTE SMOTE-ENN
+kelas                                                                       
+Metasploit_Brute_Force_SSH    10/10  10/10  10/10            10/10     10/17
+NMAP_FIN_SCAN                   8/9   8/10    8/9              8/9      8/12
+Wipro_bulb                    61/63  61/72  64/70            63/67     64/83
+XGB (benar/diprediksi; sampel uji: Metasploit 11, FIN 8, Wipro 66)
+sampler                    Baseline    RUS  SMOTE Borderline-SMOTE SMOTE-ENN
+kelas                                                                       
+Metasploit_Brute_Force_SSH    10/10  10/11  10/11            11/11     10/22
+NMAP_FIN_SCAN                   8/8    8/8    8/9              8/8      8/12
+Wipro_bulb                    62/64  64/72  64/68            62/64     64/74

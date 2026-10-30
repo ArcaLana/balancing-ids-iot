@@ -1,0 +1,8 @@
+kat. Baseline selesai
+kat. SMOTE (kategori dianggap angka) selesai
+kat. SMOTENC selesai
+                             sampler  f1_macro  gmean  waktu_fit_dtk
+       numerik saja (Bab 10.7) SMOTE     0.983  0.987          4.178
+                       kat. Baseline     0.985  0.983          3.361
+kat. SMOTE (kategori dianggap angka)     0.985  0.987          4.468
+                        kat. SMOTENC     0.991  0.987          6.843

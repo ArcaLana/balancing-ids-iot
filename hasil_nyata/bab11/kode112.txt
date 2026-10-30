@@ -1,0 +1,22 @@
+                            precision    recall  f1-score   support
+
+            ARP_poisioning     0.9882    0.9908    0.9895      2287
+            DDOS_Slowloris     0.9937    0.9875    0.9906       160
+             DOS_SYN_Hping     1.0000    1.0000    1.0000     27027
+              MQTT_Publish     1.0000    0.9984    0.9992      1243
+Metasploit_Brute_Force_SSH     1.0000    0.9091    0.9524        11
+             NMAP_FIN_SCAN     1.0000    1.0000    1.0000         8
+         NMAP_OS_DETECTION     1.0000    1.0000    1.0000       600
+             NMAP_TCP_scan     1.0000    1.0000    1.0000       301
+             NMAP_UDP_SCAN     0.9961    0.9910    0.9935       775
+       NMAP_XMAS_TREE_SCAN     1.0000    0.9983    0.9992       603
+               Thing_Speak     0.9878    0.9900    0.9889      2296
+                Wipro_bulb     0.9688    0.9394    0.9538        66
+
+                  accuracy                         0.9983     35377
+                 macro avg     0.9946    0.9837    0.9889     35377
+              weighted avg     0.9983    0.9983    0.9983     35377
+
+G-Mean (imblearn)      : 0.9833
+ROC-AUC OvR macro      : 1.0
+PR-AUC (AP) macro      : 0.9947

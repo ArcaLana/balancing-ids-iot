@@ -1,0 +1,52 @@
+{
+  "versi": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "sklearn": "1.9.1",
+    "imblearn": "0.14.2",
+    "xgboost": "3.4.1"
+  },
+  "random_state": 42,
+  "mesin": {
+    "cpu_inti": 2,
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "fitur": "80 numerik berskala; kategorikal tidak dipakai",
+  "model": {
+    "RF": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "XGB": {
+      "learning_rate": 0.1,
+      "max_depth": 6,
+      "n_estimators": 100,
+      "random_state": 42,
+      "tree_method": "hist"
+    }
+  },
+  "sampler_multikelas": {
+    "BATAS": 2000,
+    "TARGET": 2000,
+    "k_neighbors": 5
+  },
+  "sampler_biner": "sampling_strategy=auto (kedua kelas disamakan)",
+  "evaluasi": "latih pada X_train; nilai pada X_test asli; waktu prediksi = median 5 kali"
+}

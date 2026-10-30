@@ -1,0 +1,2 @@
+Latih: (82545, 82) | Uji: (35377, 82)
+Fitur numerik: 80 | kategorikal (tidak dipakai di bab ini): ['proto', 'service']

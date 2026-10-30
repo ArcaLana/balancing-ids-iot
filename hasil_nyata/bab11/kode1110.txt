@@ -1,0 +1,4 @@
+NMAP_FIN_SCAN base salah: [(1106, 'NMAP_UDP_SCAN'), (2888, 'NMAP_UDP_SCAN')]
+NMAP_FIN_SCAN smote salah: [(1106, 'ARP_poisioning'), (2888, 'ARP_poisioning')]
+Metasploit_Brute_Force_SSH base salah: [(1462, 'DDOS_Slowloris'), (15718, 'DDOS_Slowloris'), (21232, 'ARP_poisioning'), (30797, 'NMAP_UDP_SCAN')]
+Metasploit_Brute_Force_SSH smote salah: [(1462, 'DDOS_Slowloris'), (15718, 'DDOS_Slowloris'), (21232, 'ARP_poisioning'), (30797, 'NMAP_UDP_SCAN')]

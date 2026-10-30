@@ -1,0 +1,13 @@
+                            RF Baseline  XGB Baseline  XGB Borderline-SMOTE  XGB SMOTE-ENN  sampel_uji
+ARP_poisioning                    0.992         0.990                 0.989          0.980        2287
+DDOS_Slowloris                    0.984         0.991                 0.997          0.991         160
+DOS_SYN_Hping                     1.000         1.000                 1.000          1.000       27027
+MQTT_Publish                      0.999         0.999                 0.999          0.999        1243
+Metasploit_Brute_Force_SSH        0.952         0.952                 1.000          0.606          11
+NMAP_FIN_SCAN                     0.941         1.000                 1.000          0.800           8
+NMAP_OS_DETECTION                 1.000         1.000                 1.000          1.000         600
+NMAP_TCP_scan                     1.000         1.000                 0.993          0.992         301
+NMAP_UDP_SCAN                     0.989         0.994                 0.995          0.989         775
+NMAP_XMAS_TREE_SCAN               0.998         0.999                 0.999          0.999         603
+Thing_Speak                       0.989         0.989                 0.990          0.983        2296
+Wipro_bulb                        0.946         0.954                 0.954          0.914          66

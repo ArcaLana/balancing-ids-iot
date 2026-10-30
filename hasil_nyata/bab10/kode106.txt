@@ -1,0 +1,35 @@
+biner RF Baseline selesai
+biner RF RUS selesai
+biner RF ROS selesai
+biner RF SMOTE selesai
+biner RF Borderline-SMOTE selesai
+biner RF ADASYN selesai
+biner RF SMOTE-Tomek selesai
+biner RF SMOTE-ENN selesai
+biner XGB Baseline selesai
+biner XGB RUS selesai
+biner XGB ROS selesai
+biner XGB SMOTE selesai
+biner XGB Borderline-SMOTE selesai
+biner XGB ADASYN selesai
+biner XGB SMOTE-Tomek selesai
+biner XGB SMOTE-ENN selesai
+model          sampler status  f1_macro  gmean  waktu_fit_dtk
+   RF         Baseline     ok     0.996  0.996          3.473
+   RF              RUS     ok     0.991  0.998          1.765
+   RF              ROS     ok     0.996  0.996         10.964
+   RF            SMOTE     ok     0.996  0.997         16.620
+   RF Borderline-SMOTE     ok     0.996  0.997         22.284
+   RF           ADASYN     ok     0.996  0.997         21.426
+   RF      SMOTE-Tomek     ok     0.996  0.997         91.731
+   RF        SMOTE-ENN     ok     0.994  0.997         91.384
+   RF     class_weight     ok     0.996  0.997          4.548
+  XGB         Baseline     ok     0.996  0.995          2.486
+  XGB              RUS     ok     0.990  0.997          1.416
+  XGB              ROS     ok     0.995  0.997          3.156
+  XGB            SMOTE     ok     0.995  0.997          4.372
+  XGB Borderline-SMOTE     ok     0.995  0.998          6.389
+  XGB           ADASYN     ok     0.995  0.998          6.404
+  XGB      SMOTE-Tomek     ok     0.995  0.997         77.303
+  XGB        SMOTE-ENN     ok     0.995  0.997         77.753
+  XGB    sample_weight     ok     0.995  0.997          2.470

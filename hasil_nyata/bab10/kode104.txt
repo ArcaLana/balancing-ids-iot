@@ -1,0 +1,3 @@
+2 kelas -> objective = binary:logistic
+12 kelas -> objective = multi:softprob
+Bobot sampel multikelas: terkecil 0.109 | terbesar 343.9

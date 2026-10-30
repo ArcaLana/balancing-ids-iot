@@ -1,0 +1,22 @@
+seed 42 selesai
+seed 43 selesai
+seed 44 selesai
+seed 45 selesai
+seed 46 selesai
+seed 47 selesai
+seed 48 selesai
+seed 49 selesai
+seed 50 selesai
+seed 51 selesai
+                       f1_macro           gmean        
+                           mean     std    mean     std
+model sampler                                          
+RF    Baseline           0.9700  0.0130  0.9555  0.0195
+      Borderline-SMOTE   0.9712  0.0116  0.9583  0.0189
+      ROS                0.9671  0.0104  0.9574  0.0191
+      RUS                0.9626  0.0132  0.9559  0.0192
+      SMOTE              0.9692  0.0080  0.9588  0.0197
+XGB   Baseline           0.9746  0.0106  0.9572  0.0196
+      Borderline-SMOTE   0.9737  0.0108  0.9595  0.0193
+      RUS                0.9704  0.0080  0.9589  0.0176
+      SMOTE              0.9732  0.0083  0.9595  0.0188

@@ -1,0 +1,3 @@
+sklearn Pipeline -> TypeError : All intermediate steps should be transformers and implement fit and transform or be the string
+Label sebelum sampler: {0: 449, 1: 51} | setelah sampler (dilihat model): {0: 449, 1: 449}
+predict pada 7 baris -> (7,) (sampler dilewati)

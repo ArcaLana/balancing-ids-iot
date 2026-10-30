@@ -1,0 +1,15 @@
+imbalanced-learn 0.14.2
+RandomUnderSampler {'sampling_strategy': 'auto', 'replacement': False}
+RandomOverSampler {'sampling_strategy': 'auto', 'shrinkage': None}
+SMOTE {'sampling_strategy': 'auto', 'k_neighbors': 5}
+BorderlineSMOTE {'sampling_strategy': 'auto', 'k_neighbors': 5, 'm_neighbors': 10, 'kind': 'borderline-1'}
+ADASYN {'sampling_strategy': 'auto', 'n_neighbors': 5}
+EditedNearestNeighbours {'sampling_strategy': 'auto', 'n_neighbors': 3, 'kind_sel': 'all'}
+SMOTETomek {'sampling_strategy': 'auto'}
+SMOTEENN {'sampling_strategy': 'auto'}
+asli {np.int64(0): 2382, np.int64(1): 461, np.int64(2): 157}
+RUS {np.int64(0): 157, np.int64(1): 157, np.int64(2): 157}
+ROS {np.int64(0): 2382, np.int64(1): 2382, np.int64(2): 2382}
+SMOTE {np.int64(0): 2382, np.int64(1): 2382, np.int64(2): 2382}
+Borderline {np.int64(0): 2382, np.int64(1): 2382, np.int64(2): 2382}
+ADASYN {np.int64(0): 2382, np.int64(1): 2399, np.int64(2): 2385}

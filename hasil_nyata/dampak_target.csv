@@ -1,0 +1,4 @@
+target,total,faktor_ukuran,terkecil,waktu_dtk,dijalankan
+25% mayoritas,236477,2.86,15765,0.58,True
+50% mayoritas,409903,4.97,31531,0.97,True
+100% mayoritas,756744,9.17,63062,1.66,True
